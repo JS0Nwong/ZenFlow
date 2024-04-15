@@ -1,0 +1,54 @@
+
+@tailwind base;
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+
+  h2 {
+    @apply text-xl;
+  }
+
+  ol {
+    @apply list-decimal list-inside pl-4;
+  }
+
+  ul {
+    @apply list-disc list-inside pl-4;
+  }
+  li::marker {
+    @apply text-gray-400/50;
+  }
+  em {
+    @apply italic;
+  }
+  blockquote {
+    @apply border-l-4 border-gray-400 pl-4;
+  }
+}
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  height: 100%;
+  margin: 0;
+}
+body::-webkit-scrollbar {
+  width: 0;
+  border-radius: 4px;
+}
+
+:root {
+  font-family:  'sans-serif', 'League Spartan', Inter, system-ui, Avenir, Helvetica, Arial;
+
+  color-scheme: light dark;
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
