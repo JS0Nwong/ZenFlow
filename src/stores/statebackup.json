@@ -1,0 +1,146 @@
+{
+    "state": {
+        "theme": "dark",
+        "hasOnboarded": true,
+        "formattedThoughts": {
+            "Today": [
+                {
+                    "text": "new time tesst",
+                    "timeStamp": "2024-05-02T18:50:21.682Z",
+                    "id": "56294305-3820-4dff-a80c-c61aaddb7567",
+                    "readOnly": true,
+                    "height": 48
+                },
+                {
+                    "text": "test",
+                    "timeStamp": "2024-05-02T18:50:21.682Z",
+                    "id": "01b4b6b4-f55a-4b25-9463-e373786f783c",
+                    "readOnly": true,
+                    "height": 48
+                },
+                {
+                    "text": "read timeout",
+                    "timeStamp": "2024-05-02T18:50:21.682Z",
+                    "id": "306ff266-621a-4b44-88b0-d346be754798",
+                    "readOnly": true,
+                    "height": 48
+                },
+                {
+                    "text": "test",
+                    "timeStamp": "2024-05-02T18:50:21.682Z",
+                    "id": "bb68f2dc-8896-483b-9011-7be6a07eb0b8",
+                    "readOnly": true,
+                    "height": 48
+                },
+                {
+                    "text": "new entry",
+                    "timeStamp": "2024-05-02T18:50:21.682Z",
+                    "id": "61e82832-00c6-47b7-8b88-0574fc7d8179",
+                    "readOnly": true,
+                    "height": 48
+                },
+                {
+                    "text": "fade",
+                    "timeStamp": "2024-05-02T18:04:12.475Z",
+                    "id": "c0b66d20-0a15-44af-b7b9-d2b6317bebbe",
+                    "readOnly": true,
+                    "height": 48
+                },
+                {
+                    "text": "hey",
+                    "timeStamp": "2024-05-02T18:04:12.475Z",
+                    "id": "32e6c9f4-dbb4-4d68-a118-46a5c0dcc04f",
+                    "readOnly": true,
+                    "height": 48
+                },
+                {
+                    "text": "new",
+                    "timeStamp": "2024-05-02T18:04:12.475Z",
+                    "id": "5a5798a6-2dba-4b27-9596-42ba97433b40",
+                    "readOnly": true,
+                    "height": 48
+                },
+                {
+                    "text": "ok",
+                    "timeStamp": "2024-05-02T18:04:12.475Z",
+                    "id": "8a0a4e1c-fdc5-4d87-836c-3db23912a6b5",
+                    "readOnly": true,
+                    "height": 48
+                },
+                {
+                    "text": "testing",
+                    "timeStamp": "2024-05-02T18:04:12.475Z",
+                    "id": "599389b6-a192-4700-9052-aa391ecdd64b",
+                    "readOnly": true,
+                    "height": 48
+                }
+            ],
+            "Yesterday": [
+                {
+                    "text": "testering",
+                    "timeStamp": "2024-04-29T04:59:25.300Z",
+                    "id": "e4b66a35-8053-428b-a24d-cd0b67cfe0e8",
+                    "readOnly": true,
+                    "height": 48
+                },
+                {
+                    "text": "tester",
+                    "timeStamp": "2024-04-29T04:59:25.300Z",
+                    "id": "e8992106-a667-4327-94c7-13e730b98739",
+                    "readOnly": true,
+                    "height": 48
+                },
+                {
+                    "text": "testing",
+                    "timeStamp": "2024-04-29T04:59:25.300Z",
+                    "id": "9d99ac5d-caab-43a8-8f80-316601d3320a",
+                    "readOnly": true,
+                    "height": 48
+                },
+                {
+                    "text": "new",
+                    "timeStamp": "2024-04-29T04:59:25.300Z",
+                    "id": "d937edd2-6a4d-4c0f-a407-17867f93fe22",
+                    "readOnly": true,
+                    "height": 48
+                },
+                {
+                    "text": "ok",
+                    "timeStamp": "2024-04-29T04:59:25.300Z",
+                    "id": "9f734d37-79fc-4fdd-a132-bd75b46f173d",
+                    "readOnly": true,
+                    "height": 48
+                },
+                {
+                    "text": "test",
+                    "timeStamp": "2024-04-29T04:59:25.300Z",
+                    "id": "b0488bfd-63c2-4a84-bf5e-000a8a8bc4a9",
+                    "readOnly": true,
+                    "height": 48
+                },
+                {
+                    "text": "hey",
+                    "timeStamp": "2024-04-29T04:58:57.467Z",
+                    "id": "77f1785a-5987-4e65-939d-184c0cbb750f",
+                    "readOnly": true,
+                    "height": 48
+                },
+                {
+                    "text": "new",
+                    "timeStamp": "2024-04-29T04:58:57.467Z",
+                    "id": "ac23713a-e48a-4f17-b425-3130a1ce5bdc",
+                    "readOnly": true,
+                    "height": 48
+                },
+                {
+                    "text": "ok",
+                    "timeStamp": "2024-04-29T04:58:57.467Z",
+                    "id": "124b1f9e-316d-4430-92bd-4a85c5aa97f2",
+                    "readOnly": true,
+                    "height": 48
+                }
+            ]
+        }
+    },
+    "version": 0
+}

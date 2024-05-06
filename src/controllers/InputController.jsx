@@ -1,7 +1,5 @@
 import { useBoundStore } from '../stores/storeBinder'
-
-
-function onHotkeyPress(e) {
+export default function onHotkeyPress(e) {
     const {
         toggleBlur,
         toggleZen,
@@ -24,24 +22,23 @@ function onHotkeyPress(e) {
     }
     if (e.key.toLowerCase() === 'b' && e.ctrlKey && e.shiftKey) {
         e.preventDefault()
-        console.log('b')
+        toggleBlur(!toggleBlur)
     }
     if (e.key.toLowerCase() === 'z' && e.ctrlKey && e.shiftKey) {
         e.preventDefault()
         setToggleZen(!toggleZen)
     }
-    if (e.key.toLowerCase() === 't' && e.ctrlKey && e.shiftKey) {
+    if (e.key.toLowerCase() === 'q' && e.ctrlKey && e.shiftKey) {
         e.preventDefault()
-        console.log('t')
+        setToggleTheme()
     }
     if (e.key.toLowerCase() === 'c' && e.ctrlKey && e.shiftKey) {
         e.preventDefault()
         clearHistory()
+        document.getElementById('user-input').focus()
     }
     if (e.key.toLowerCase() === 'v' && e.ctrlKey && e.shiftKey) {
         e.preventDefault()
-        console.log('v')
     }
 }
 
-export default onHotkeyPress

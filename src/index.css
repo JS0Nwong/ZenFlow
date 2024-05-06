@@ -9,35 +9,26 @@
     @apply text-xl;
   }
 
-  ol {
-    @apply list-decimal list-inside pl-4;
-  }
-
-  ul {
-    @apply list-disc list-inside pl-4;
-  }
-  li::marker {
-    @apply text-gray-400/50;
-  }
   em {
     @apply italic;
   }
   blockquote {
     @apply border-l-4 border-gray-400 pl-4;
   }
+  body::-webkit-scrollbar {
+    width: 14px;
+    @apply bg-neutral-100;
+    @apply dark:bg-neutral-1000;
+  }
+  body::-webkit-scrollbar-thumb {
+    border: 4px solid rgba(0,0,0,0);
+    border-radius: 99px;
+    background-color: rgb(82 82 82);
+    background-clip: padding-box;
+  }
 }
 @tailwind components;
 @tailwind utilities;
-
-
-body {
-  height: 100%;
-  margin: 0;
-}
-body::-webkit-scrollbar {
-  width: 0;
-  border-radius: 4px;
-}
 
 :root {
   font-family:  'sans-serif', 'League Spartan', Inter, system-ui, Avenir, Helvetica, Arial;
@@ -52,3 +43,26 @@ body::-webkit-scrollbar {
   scroll-behavior: smooth;
 }
 
+body {
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+}  
+textarea:read-only {
+  cursor: default;
+}
+body::-webkit-scrollbar-track {
+  border-radius: 4px;
+  background-color: transparent;
+}  
+.thoughts {
+  height: auto;
+}  
+.hide {
+  
+}
+.unblur, .unblur > span{
+  filter: brightness(100%) blur(0px) !important;
+  transition: filter 400ms linear, -webkit-filter 400ms linear;
+  display: flex;
+}  

@@ -11,12 +11,13 @@ const {
 /** @type {import('tailwindcss').Config} */
 export default withMT({
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  darkMode: "selector",
   theme: {
     extend: {
       colors: {
         neutral: {
           50: "rgb(250 250 250)",
-          100: "rgb(245 245 245)7",
+          100: "rgb(245 245 245)",
           200: "rgb(229 229 229)",
           300: "rgb(212 212 212)",
           400: "rgb(163 163 163)",
@@ -26,6 +27,7 @@ export default withMT({
           800: "rgb(38 38 38)",
           900: "rgb(23 23 23)",
           950: " rgb(10 10 10)",
+          1000: "rgb(7, 7, 7)",
         },
       }
     },
